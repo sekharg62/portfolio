@@ -1,0 +1,16 @@
+.footer {
+
+    text-align: center;
+    width: 100%;
+    color: grey;
+    padding: 3rem;
+
+}
+
+@media(max-width:425px) {
+
+    .footer {
+        padding: 1.5rem;
+        font-size: 0.6rem;
+    }
+}

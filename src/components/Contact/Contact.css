@@ -1,0 +1,93 @@
+
+.contact-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  
+
+}
+.contact-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    @media only screen and (max-width: 768px) {
+        justify-content: center;
+    }   
+
+}
+.contact-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    @media only screen and (max-width: 768px) {
+        width: 300px;
+    }
+}
+.contact-head{
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+input {
+    padding: 15px;
+    background-color: rgb(38, 4, 57);
+    border: 1px solid #9e87da;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+textarea{
+    padding: 15px 0px 0px 15px;
+    background-color: rgb(38, 4, 57);
+    border: 1px solid #9e87da;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+
+}
+.contact-btn {
+    background-color: #084aff;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px;
+    text-transform: upp;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+.contact-right {
+    flex: 1;
+
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
+}
+.success-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #d4edda;
+    color: #155724;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .error-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f8d7da;
+    color: #721c24;
+    font-size: 1rem;
+    text-align: center;
+  }
